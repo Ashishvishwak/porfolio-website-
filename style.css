@@ -1,0 +1,75 @@
+/* Reset CSS */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans Nandinagari', sans-serif;
+    font-family: 'PT Serif', serif;
+}
+#navitem {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+}
+
+#navitem li {
+    list-style: none;
+    text-decoration: none;
+}
+
+#navitem li a {
+    font-size: 10px;
+    text-decoration: none;
+    padding: 18px;
+    color: black;
+}
+
+h3 {
+    position: absolute;
+    left: 6px;
+}
+
+#navitem li a:hover {
+    color: rgb(234, 55, 61);
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/backgroud.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+}
+
+.text {
+    position: relative;
+    top: 90px;
+    left: 40px;
+}
+.text samp{
+    color: rgb(236, 131, 45);
+}
+
+.text button{
+background-color: rgb(119, 119, 227);
+color: black;
+border-radius:20px  ;
+padding: 5px;
+margin: 9px;
+}
+
+.profile {
+
+    position: absolute;
+    right: 140px;
+    top: 100px;
+}
+
+#gay img {
+    height: 200px;
+    width: 200px;
+}
